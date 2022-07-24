@@ -1,0 +1,27 @@
+.container{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+}
+
+#form input, textarea{
+    border-radius: 5px;
+    width: 400px;
+    margin: 5px 0px;
+    resize: none;
+    outline: none;
+    box-shadow: 0px 2px 1px rgb(0, 0, 0);
+    padding: 7px 15px;
+    border: none;
+}
+button {
+   padding: 8px 10px;
+   border-radius: 10px;
+   font-size: 15px;
+   background-color: #078ffebd;
+   color: #fff;
+   font-weight: bolder;
+   border:none;
+   outline: none;
+}
