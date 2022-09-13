@@ -1,0 +1,75 @@
+@import url("https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,700&family=Montserrat:wght@500;700&family=Poppins:ital,wght@0,100;0,200;0,400;0,600;1,100&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Poppins", sans-serif;
+}
+
+.container {
+  width: 50%;
+  height: 90vh;
+  margin: 2rem;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: rgb(29, 49, 54);
+}
+
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 1rem;
+  margin-left: 0;
+  margin-right: 0;
+  padding: 1rem;
+  background-color: rgb(0, 0, 24);
+}
+
+.logoContainer {
+  display: flex;
+  align-items: center;
+}
+
+.logoText {
+  font-size: 2rem;
+  margin-left: 5px;
+  color: #61dbfb;
+}
+
+.logo {
+  height: 40px;
+}
+
+.title {
+  color: white;
+}
+
+.main {
+  margin: 2rem;
+}
+
+.main h1 {
+  color: white;
+  font-size: 2.5rem;
+}
+
+.main ul {
+  margin: 2rem;
+  list-style: none;
+}
+
+.main ul li::before {
+  content: "\2022";
+  color: #61dbfb;
+  font-weight: bold;
+  display: inline-block;
+  width: 1em;
+  margin-left: -1em;
+}
+
+.main ul li {
+  font-size: 1.3rem;
+  line-height: 2;
+  color: white;
+}
